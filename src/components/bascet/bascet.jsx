@@ -81,7 +81,7 @@ function Bascet() {
             <div className="bascet-content-botom">
               <div className="bascet-content-botom-title">Итог: {prise} р.</div>
               <div className="bascet-content-btns">
-                <Link to={'delivery'} onClick={closed} className="bascet-content-btn">Оформить заказ</Link>
+                <Link to={'pastel/delivery'} onClick={closed} className="bascet-content-btn">Оформить заказ</Link>
               </div>
             </div>
             <img onClick={closed}  className="bascet-content-close" src={close} alt="" />

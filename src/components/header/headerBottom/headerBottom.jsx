@@ -12,10 +12,10 @@ function HeaderBottom() {
           <img src={img} onClick={clouseLP} className="cloused-btn-header-img" alt="" />
         </div>
         <div className="header-bottom-content p15">
-          <Link onClick={clouseLP} to={''} className="header-bottom-content-link">Главная</Link>
-          <Link onClick={clouseLP} to={'catalog'} className="header-bottom-content-link">Каталог</Link>
-          <Link onClick={clouseLP} to={'pay'} className="header-bottom-content-link">Оплата/Доставка</Link>
-          <Link onClick={clouseLP} to={'contactas'}className="header-bottom-content-link">Контакты</Link>
+          <Link onClick={clouseLP} to={'pastel/'} className="header-bottom-content-link">Главная</Link>
+          <Link onClick={clouseLP} to={'pastel/catalog'} className="header-bottom-content-link">Каталог</Link>
+          <Link onClick={clouseLP} to={'pastel/pay'} className="header-bottom-content-link">Оплата/Доставка</Link>
+          <Link onClick={clouseLP} to={'pastel/contactas'}className="header-bottom-content-link">Контакты</Link>
         </div>  
       </div>
     </div>
