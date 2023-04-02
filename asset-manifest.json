@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/pastel/static/css/main.0ef5f240.css",
+    "main.js": "/pastel/static/js/main.f8bd7e91.js",
+    "static/js/787.3c75a8b1.chunk.js": "/pastel/static/js/787.3c75a8b1.chunk.js",
+    "static/media/jpeg.png": "/pastel/static/media/e900f120e4bf88e3d6fc232e3a6c414a.jpeg.0d54f43938fd82f46f7e.png",
+    "static/media/Group 2 (2).svg": "/pastel/static/media/Group 2 (2).27e9bdfbf8a215d8d7c3dec08dd9582b.svg",
+    "static/media/Group 2.svg": "/pastel/static/media/Group 2.7f94251661351230bc7cb891b4bb94c8.svg",
+    "index.html": "/pastel/index.html",
+    "static/media/shopping_basket_FILL1_wght400_GRAD0_opsz48.svg": "/pastel/static/media/shopping_basket_FILL1_wght400_GRAD0_opsz48.60ad8bc2c6d82877b56b5d5662594586.svg",
+    "static/media/search_FILL1_wght400_GRAD0_opsz48.svg": "/pastel/static/media/search_FILL1_wght400_GRAD0_opsz48.56982c1a4d1ef20556e024945d6badc1.svg",
+    "static/media/call_FILL1_wght400_GRAD0_opsz48.svg": "/pastel/static/media/call_FILL1_wght400_GRAD0_opsz48.a00ed285e054229443c5b55955e57637.svg",
+    "static/media/call_FILL1_wght400_GRAD0_opsz48 (1).svg": "/pastel/static/media/call_FILL1_wght400_GRAD0_opsz48 (1).c479876e4fc46ab30662d0d4ea828bbc.svg",
+    "static/media/favorite_FILL1_wght400_GRAD0_opsz48.svg": "/pastel/static/media/favorite_FILL1_wght400_GRAD0_opsz48.e7dcdbf7c35d423d0cd262e68083ce81.svg",
+    "static/media/delete_FILL1_wght100_GRAD0_opsz48.svg": "/pastel/static/media/delete_FILL1_wght100_GRAD0_opsz48.9028f65710f5a8a5d6df13193a5aebee.svg",
+    "static/media/tune_FILL1_wght400_GRAD0_opsz48.svg": "/pastel/static/media/tune_FILL1_wght400_GRAD0_opsz48.e7b065b12eed5a13f16d1b17a9b72a78.svg",
+    "static/media/close_FILL0_wght100_GRAD200_opsz48.svg": "/pastel/static/media/close_FILL0_wght100_GRAD200_opsz48.8c4fc0a4ced3612c92fcefff0de36f6e.svg",
+    "static/media/menu_FILL1_wght400_GRAD0_opsz48 (1).svg": "/pastel/static/media/menu_FILL1_wght400_GRAD0_opsz48 (1).880c1393e11cba011cc189a1c540fb6d.svg",
+    "static/media/expand_less_FILL0_wght400_GRAD0_opsz48.svg": "/pastel/static/media/expand_less_FILL0_wght400_GRAD0_opsz48.cf1c6b6a204868717d5859ac67420dd6.svg",
+    "main.0ef5f240.css.map": "/pastel/static/css/main.0ef5f240.css.map",
+    "main.f8bd7e91.js.map": "/pastel/static/js/main.f8bd7e91.js.map",
+    "787.3c75a8b1.chunk.js.map": "/pastel/static/js/787.3c75a8b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ef5f240.css",
+    "static/js/main.f8bd7e91.js"
+  ]
+}
