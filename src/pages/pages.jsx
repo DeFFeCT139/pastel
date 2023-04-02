@@ -9,11 +9,11 @@ function Pages() {
   return (
     <div className="pages">
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/contactas" element={<Contact/>}/>
-        <Route path="/catalog" element={<Cotalog/>}/>
-        <Route path="/pay" element={<Pay/>}/>
-        <Route path="/delivery" element={<Delivery/>}/>
+        <Route path="" element={<Home/>}/>
+        <Route path="contactas" element={<Contact/>}/>
+        <Route path="catalog" element={<Cotalog/>}/>
+        <Route path="pay" element={<Pay/>}/>
+        <Route path="delivery" element={<Delivery/>}/>
       </Routes>
     </div>
   );
