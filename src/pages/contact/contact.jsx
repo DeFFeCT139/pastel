@@ -46,7 +46,7 @@ function Contact() {
                 </div>
               </div>
               <div className="contact-content-right">
-                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5e84517dba9701e9dae280a37d88e75e3c61249670203a3b64489a06057182a3&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5e84517dba9701e9dae280a37d88e75e3c61249670203a3b64489a06057182a3&amp;source=constructor" width="500" height="400" frameBorder="0"></iframe>
               </div>
             </div>
           </div>

@@ -1,13 +1,22 @@
 import { Link } from "react-router-dom";
+import img from '../../../image/close_FILL0_wght100_GRAD200_opsz48.svg'
 
 function HeaderBottom() {
+
+  const clouseLP = () => document.getElementById('header-bottom').classList.remove('header-bottom-active')
+
   return (
-    <div className="header-bottom">
-      <div className="header-bottom-content p15">
-        <Link to={'/'} className="header-bottom-content-link">Главная</Link>
-        <Link to={'/catalog'} className="header-bottom-content-link">Каталог</Link>
-        <Link to={'/pay'} className="header-bottom-content-link">Оплата/Доставка</Link>
-        <Link to={'/contactas'}className="header-bottom-content-link">Контакты</Link>
+    <div id="header-bottom" className="header-bottom">
+      <div className="header-bottom-inner">
+        <div className="cloused-btn-header">
+          <img src={img} onClick={clouseLP} className="cloused-btn-header-img" alt="" />
+        </div>
+        <div className="header-bottom-content p15">
+          <Link onClick={clouseLP} to={'/'} className="header-bottom-content-link">Главная</Link>
+          <Link onClick={clouseLP} to={'/catalog'} className="header-bottom-content-link">Каталог</Link>
+          <Link onClick={clouseLP} to={'/pay'} className="header-bottom-content-link">Оплата/Доставка</Link>
+          <Link onClick={clouseLP} to={'/contactas'}className="header-bottom-content-link">Контакты</Link>
+        </div>  
       </div>
     </div>
   );

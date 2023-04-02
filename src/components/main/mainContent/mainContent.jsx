@@ -9,8 +9,8 @@ function MainContent() {
   ]
   return (
     <div className="main-coontent bg-w">
-      {list.map(lists =>
-        <div className="main-block">
+      {list.map((lists, insex) =>
+        <div key={insex} className="main-block">
           <div className="main-coontent-post">
             <div className="main-coontent-post-inner">
               <div className="main-coontent-post-content">
@@ -23,8 +23,8 @@ function MainContent() {
           <div className="conteiner">
             <div className="main-coontent-inner p15">
               <div className="main-coontent-cards">
-                {lists.card.map(list => 
-                  <Card card={list}/>
+                {lists.card.map((list, insex) => 
+                  <Card key={insex} card={list}/>
                 )}
               </div>
               <div className="main-coontent-link">Смотреть все {lists.title}</div>

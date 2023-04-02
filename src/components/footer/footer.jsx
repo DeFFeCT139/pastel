@@ -1,4 +1,4 @@
-import logo from '../../image/logo-5.png'
+import logo from '../../image/Group 2 (2).svg'
 import img from '../../image/call_FILL1_wght400_GRAD0_opsz48.svg'
 
 
@@ -12,8 +12,8 @@ function Footer() {
         <div className="footer-inner">
           <div className="footer-content">
             <div className="footer-content-category">
-              {list.map(list =>
-                <div className="footer-content-category-item">{list}</div>
+              {list.map((list, index) =>
+                <div key={index} className="footer-content-category-item">{list}</div>
               )}<br/>
               <div className="footer-content-category-item">Пользовательское соглашение</div>
               <div className="footer-content-category-item">Способы доставки и оплаты</div>
